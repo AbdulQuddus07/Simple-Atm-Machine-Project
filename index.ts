@@ -75,4 +75,4 @@ if (pinAnswer.pin === myPIN) {
 } else {
   console.log(chalk.red("Pin is Incorrect, Try Again!"));
 }
-console.log(chalk.italic("-:The End:-"));
+console.log(chalk.italic.bold("-:The End:-"));
