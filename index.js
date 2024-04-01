@@ -5,7 +5,7 @@ import chalk from "chalk";
 let myBALANCE = 10000;
 let myPIN = 786786;
 // Print Wellcome Message
-console.log(chalk.blue("\n \tWellcome to Code with Abdul Quddus ATM-Machine\n"));
+console.log(chalk.bold.blue("\n \tWellcome to Code with Abdul Quddus ATM-Machine\n"));
 let pinAnswer = await inquirer.prompt([
     {
         name: "pin",
